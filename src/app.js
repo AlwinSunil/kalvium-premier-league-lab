@@ -150,7 +150,6 @@ function SortByNamexAwardxTimes(awardName, noOfTimes, country) {
     }
     return awardCount === parseInt(noOfTimes) && player.country === country;
   });
-  console.log(result);
 
   return result.sort((a, b) => a.name.localeCompare(b.name));
 }
